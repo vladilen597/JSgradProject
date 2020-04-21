@@ -1,0 +1,429 @@
+/*RESET.CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*END RESET.CSS*/
+
+.wrapper{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: #fcba03;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+    height: 160px;
+}
+
+.in{
+    height: 40px;
+    width: 25%;
+    margin-left: 63%;
+}
+
+.find{
+    display: flex;
+}
+
+.upper{
+    display: flex;
+}
+
+.inbtn{
+    height: 40px;
+}
+
+.bread_crumbs{
+    width: 50%;
+    margin-top: -5%;
+    margin-left: -8%;
+}
+
+header span{
+    display: block;
+    margin-top: 40px;
+}
+
+header ul{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+    list-style-type: none; 
+    margin-left: 42%;
+}
+
+header ul li{
+    padding-left: 10px;
+}
+
+header ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s;
+    border: 1px solid #000;
+    padding: 10px;
+    padding-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 1px;
+}
+
+header ul li a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.headerIMG{
+    width: 10%;
+    height: 30%;
+}
+
+.shop{
+    background-color: lightgrey;
+    display: flex;
+}
+
+.container_products{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.container_products .item{
+    width: 200px;
+    background-color: #fcba03;
+    height: 300px;
+    text-align: center;
+}
+
+.container_products .img{
+    background-image: url('./image/inteli7.jpg');
+    height: 200px;
+    background-size: cover;
+    margin: 10px 0;
+    background-position: center; 
+}
+
+.container_cart{
+    font-size: 40px;
+    display: none;
+    height: 1000px;
+    background-color: lightgrey;
+}
+
+.carouselOwn{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.carouselOwn img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+
+.carouselOwn h5{
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+}
+
+.carouselOwn p{
+    color: crimson;
+}
+
+.carouselOwn .ind{
+    background-color: black;
+}
+
+ .carouselOwn .curs{
+    color: grey;
+ }
+
+
+
+.container1{
+    width: 100%;
+    padding: 60px 0;
+    background-color: #fcba03;
+    font-size: 20px;
+}
+
+.container2{
+    height: 700px;
+}
+
+.container2 h5{
+    width: 30%;
+    font-size: 30px;
+    background-color: rgba(150, 150, 150, 0.5);
+}
+
+.container2 img{
+    display: block;
+    margin: 0 auto;
+}
+
+.container3{
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container3 h3{
+    font-weight: 700;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #fcba03;
+}
+
+footer .credits{
+    padding-top: 80px;
+    color: grey;
+    margin-left: 20%;
+}
+
+footer .eng{
+    font-size: 20px;
+    text-decoration: none;
+    color: grey;
+}
+
+footer .eng:hover{
+    color: #000;
+}
+
+
+.company{
+    width: 100%;
+    display: flex;
+}
+
+
+.company .map{
+    width: 70%;
+    height: 700px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.text{
+    width: 25%;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.text h3{
+    font-weight: 700;
+}
+
+.cart123{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+.shop{
+    width: 100%;
+}
+
+.shop .filter{
+    width: 25%;
+}
+
+.shop .shopping_cart{
+    width: 70%;
+}
+
+.filterBtn{
+    background-color: none;
+    padding: 10px 5px;
+    width: 50%;
+    margin: 10px;
+}
+
+.sign{
+    position: fixed;
+    width: 50%;
+    height: 500px;
+    top: 250px;
+    left: 25%;
+    background-color: lightgrey;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+}
+
+.sign .signin, .sign .signup{
+    width: 45%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.sign .signup{
+    margin-left: 5%;  
+    margin-right: 5%;  
+}
+
+.carousel-item img{
+        height: 700px;
+    }
+
+.hide{
+    display: none;
+}
+
+
+
+@media (max-width: 1750px){
+    header ul {
+        margin-left: 13%;
+    }
+    .in {
+        margin-left: 37%;
+    }
+    .bread_crumbs{
+        width: 50%;
+        margin-top: -5%;
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 1200px){
+    .container1 {
+        height: 35vh;
+    }
+    .sign {
+        width: 80%;
+        left: 10%;
+    }
+    .find{
+        display: none;
+    }
+    .bread_crumbs {
+        width: 60%;
+        margin-left: -10%;
+    }
+    .headerIMG{
+        display: none;
+    }
+    .upper span{
+        margin-left: 2%;
+    }
+    .carousel-item img{
+        height: 500px;
+    }
+    .container2{
+        height: 500px;
+    }
+    .carouselOwn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 910px){
+    header ul{
+        display: block;
+        margin-left: 40%;
+        margin-top: 10px;
+    }
+    header ul li{
+        margin-bottom: 10px;
+    }
+    .upper{
+        height: 130px;
+    }
+    header{
+        height: 300px;
+    }
+    .container1 {
+        height: 50vh;
+    }
+    .company{
+        display: block
+    }
+    .company .map {
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px){
+    header ul li a{
+        font-size: 10px;
+    }
+    header ul{
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 576px){
+    .upper span{
+        font-size: 20px;
+    }
+}
